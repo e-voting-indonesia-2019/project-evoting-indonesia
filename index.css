@@ -3,10 +3,65 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
   background-image: url(./assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.title {
+  color: white;
+  width: 50%;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-family: 'Content', sans-serif;
+  color: white;
+  ;
+}
+
+.register {
+  border-color: white;
+}
+
+.login {
+  border-color: white solid;
+}
+
+.login h2 {
+  display:flex;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  font-family: saira;
+}
+
+.button-login {
+  color: white;
+  background-color: red;
+  width: 300px;
+}
+
+.form-group label {
+  font-family: saira;
+  font-size: 20px;
+  color: white;
+
+}
+
+form {
+  border: 1px solid white;
+  padding: 30px;
 }
