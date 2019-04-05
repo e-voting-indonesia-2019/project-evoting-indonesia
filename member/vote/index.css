@@ -3,9 +3,6 @@ body {
 }
 
 .container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
@@ -25,7 +22,6 @@ body {
   font-family: saira;
   font-size: 32px;
   color: white;
-  /* margin-top: 40px; */
 }
 
 .card-group {
@@ -69,7 +65,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* border-top: 1px solid white */
 }
 
 .card-body p {
@@ -90,20 +85,5 @@ body {
 
 .card-footer button:hover {
   background-color: gainsboro;
-  color:#FF0000;
+  color: #FF0000;
 }
-
-/* 
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px;
-  background-color: #FF0000;
-  border: 1px solid white;
-}
-
-.card img {
-  width: 50%;
-  height: 50%;
-} */

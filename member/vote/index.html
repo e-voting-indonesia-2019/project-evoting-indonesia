@@ -13,6 +13,16 @@
 </head>
 
 <body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
   <div class="container-fluid">
     <div id="head-vote" class="head-vote">
       <p>Hi! Dicky</p>
@@ -30,7 +40,8 @@
           <p>Ir.H Joko Widodo - K.H Ma'ruf Amin</p>
         </div>
         <div class="card-footer">
-          <a href="/member/vote-after/index.html"><button>VOTE</button></a>
+          <!-- <a href="/member/vote-after/index.html"><button>VOTE</button></a> -->
+          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
         </div>
       </div> <br>
 
@@ -43,7 +54,10 @@
           <p>H.Prabowo Subianto - H.Sandiaga Uno</p>
         </div>
         <div class="card-footer">
-          <a href="/member/vote-after/index.html"><button>VOTE</button></a>
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Launch demo modal
+          </button> -->
+          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
         </div>
       </div><br>
 
@@ -56,46 +70,34 @@
           <p>Nurhadi - Aldo</p>
         </div>
         <div class="card-footer">
-          <a href="/member/vote-after/index.html"><button>VOTE</button></a>
+          <!-- <a href="/member/vote-after/index.html"><button>VOTE</button></a> -->
+          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
         </div>
       </div>
     </section>
 
+  </div>
 
-    <!-- <div class="card-group">
-
-      <div class="card">
-        <h1>1</h1>
-        <img src="/assets/images/profil-01.png" class="card-img-top" alt="jokowi-maruf">
-        <div class="card-body">
-          <h5 class="card-title">Ir.H.Joko Widodo - KH.Ma'ruf Amin</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">CONFIRMATION</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          You are vote Nurhadi-Aldo. Are you sure?
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-dismiss="modal">Not sure</button>
+          <button type="button">Yes, i vote</button>
         </div>
       </div>
-      <div class="card">
-        <h1>2</h1>
-        <img src="/assets/images/profil-02.png" class="card-img-top" alt="prabowo-uno">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <h1>3</h1>
-        <img src="/assets/images/profil-10.png" class="card-img-top" alt="nurhadi-aldo">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div> -->
-
-
+    </div>
   </div>
 
 </body>
