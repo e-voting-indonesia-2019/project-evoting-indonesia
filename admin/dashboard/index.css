@@ -1,15 +1,14 @@
 body {
-  background-color: #FF0000;
-}
-
-.container {
-  width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
   background-image: url(../../assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 30px;
+}
+
+.container {
+
 }
 
 .navigation h3 {
@@ -21,5 +20,32 @@ body {
 
 .navigation img {
   width: 30px;
-  height: 30px
+  height: 30px;
+}
+
+.header {
+  margin-top: 25px;
+}
+
+.header .box {
+  line-height: 10%;
+  background-color: rgb(255, 255, 255, 0.75);
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.header img {
+  
+}
+
+.header h1 {
+  font-family: 'Saira';
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.header p {
+  font-family: 'Saira';
+  font-size: 18px;
+  font-weight: 500; 
 }
