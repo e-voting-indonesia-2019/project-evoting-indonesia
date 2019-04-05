@@ -6,7 +6,7 @@ body {
   width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
-  background-image: url(./assets/images/background.svg);
+  background-image: url(../../assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
