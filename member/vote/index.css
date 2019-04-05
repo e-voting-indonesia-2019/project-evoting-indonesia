@@ -87,3 +87,28 @@ body {
   background-color: gainsboro;
   color: #FF0000;
 }
+
+
+/* modal */
+
+.modal-footer .modal-not-sure {
+  background-color: lightgray;
+  color: red;
+  width: 100px;
+}
+
+.modal-footer .modal-yes-vote {
+  background-color: #FF0000;
+  color: white;
+  width: 100px;
+}
+
+.modal-not-sure:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.modal-yes-vote:hover {
+  background-color: lightgrey;
+  color: #FF0000;
+}
