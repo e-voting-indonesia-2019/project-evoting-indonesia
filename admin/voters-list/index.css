@@ -4,6 +4,7 @@ body {
   background-image: url(../../assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
+  font-family: 'Saira';
   margin-top: 30px;
 }
 
