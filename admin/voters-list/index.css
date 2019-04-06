@@ -28,8 +28,8 @@ section {
   height: 40px;
 }
 
-.form .col-12 div {
-  min-height: 500px;
+.form .container {
+  min-height: 200px;
   background-color: #FFBFBF;
   padding: 25px;
 }
