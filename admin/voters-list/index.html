@@ -9,10 +9,21 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.css">
   <link href="https://fonts.googleapis.com/css?family=Content|Saira" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
   <title>e-Voting Indonesia 2019</title>
 </head>
 
 <body>
+
+  <!-- NAVIGATION -->
   <section class="navigation">
     <div class="container">
       <div class="row">
@@ -26,6 +37,7 @@
     </div>
   </section>
 
+  <!-- FORM -->
   <section class="form">
     <div class="container">
       <div class="row">
@@ -76,7 +88,7 @@
                   <td>3326161509860001</td>
                   <td>Hj. Entin Suartini</td>
                   <td>October 2, 1957</td>
-                  <td>Femali</td>
+                  <td>Female</td>
                   <td>entin@gmail.com</td>
                   <td>Jl. Cidaun No. 22 Cianjur</td>
                 </tr>
@@ -87,12 +99,74 @@
       </div>
       <div class="row">
         <div class="col-12 text-right">
-          <a name="" id="" class="btn btn-danger" href="#" role="button">INPUT VOTER</a>
+          <a name="" id="" class="btn btn-danger" href="#" role="button" data-toggle="modal"
+            data-target="#modalInput">Register Voter</a>
+
+          <!-- MODAL REGISTRATION -->
+          <div class="modal fade" id="modalInput" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">REGISTRATION FORM</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-left">
+                  <form>
+                    <div class="form-group">
+                      <label for="inputIdCard" class="col-form-label">ID Card Number</label>
+                      <input type="text" class="form-control" id="inputIdCard" placeholder="Enter ID Card Number">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputName" class="col-form-label">Full Name</label>
+                      <input type="text" class="form-control" id="inputIdCard" placeholder="Enter Full Name">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputDateOfBirth" class="col-form-label">Date of Birth</label>
+                      <input type="date" class="form-control" id="inputDateOfBirth">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="form-check-input" class="col-form-label">Gender</label>
+                      <br>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOption" id="radioMale" value="option1">
+                        <label class=" form-check-label" for="radioMale">Male</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOption" id="radioFemale"
+                          value="option2">
+                        <label class="form-check-label" for="radioFemale">Female</label>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail" class="col-form-label">E-mail</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Enter E-mail">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <textarea class="form-control" name="inputAddress" id="inputAddress" placeholder="Enter Address"
+                        rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-danger">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
 </body>
 
 </html>
