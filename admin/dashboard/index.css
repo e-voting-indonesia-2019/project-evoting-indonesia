@@ -6,10 +6,6 @@ body {
   margin-top: 30px;
 }
 
-.container {
-
-}
-
 .navigation h3 {
   font-family: 'Content';
   font-size: 28px;
@@ -44,10 +40,6 @@ body {
   background-color: rgb(224, 158, 158, 0.75);
   padding-left: 20px;
   margin-bottom: 25px;
-}
-
-.header img {
-  
 }
 
 .header a {
@@ -104,6 +96,7 @@ body {
 
 .main .box-bottom {
   padding: 10px 75px;
+  margin-bottom: 25px;
 }
 
 .main .box-bottom h3 {
