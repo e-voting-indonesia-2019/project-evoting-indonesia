@@ -10,3 +10,105 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.head-vote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.head-vote p {
+  display: flex;
+  justify-content: center;
+  font-family: saira;
+  font-size: 32px;
+  color: white;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #FF0000;
+  border: 1px solid white;
+  margin: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: saira;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+  height: 80%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-body p {
+  color: white;
+  font-size: 20px;
+  font-family: saira;
+  margin-top: 20px;
+}
+
+.card-footer button {
+  color: white;
+  background-color: #FF0000;
+  width: 300px;
+  height: 40px;
+  font-family: saira;
+  margin-bottom: 20px;
+}
+
+.card-footer button:hover {
+  background-color: gainsboro;
+  color: #FF0000;
+}
+
+
+/* modal */
+
+.modal-footer .modal-not-sure {
+  background-color: lightgray;
+  color: red;
+  width: 100px;
+}
+
+.modal-footer .modal-yes-vote {
+  background-color: #FF0000;
+  color: white;
+  width: 100px;
+}
+
+.modal-not-sure:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.modal-yes-vote:hover {
+  background-color: lightgrey;
+  color: #FF0000;
+}

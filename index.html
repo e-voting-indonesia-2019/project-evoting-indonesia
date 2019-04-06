@@ -8,12 +8,35 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.googleapis.com/css?family=Content|Saira" rel="stylesheet">
   <title>e-Voting Indonesia 2019</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>e-Voting Indonesia 2019</h1>
+    <section id="login-page" class="login-page">
+      <div id="title" class="title">
+        <h1>Indonesian Presidential and Vice Presidential Election</h1>
+      </div>
+      <div id="register" class="register">
+        <form id="login" class="login">
+          <h2>LOGIN TO VOTE</h2>
+          <div class="form-group">
+            <label>No.Registration</label>
+            <input type="text" class="form-control" placeholder="Your Number Registration">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+          <!-- <button type="submit" class="btn btn-black">Login</button> -->
+          <a href="/member/vote/index.html"><button type="submit" class="btn btn-secondary button-login">SIGN
+              IN</button></a>
+        </form>
+      </div>
+
+    </section>
+
   </div>
 
 </body>
