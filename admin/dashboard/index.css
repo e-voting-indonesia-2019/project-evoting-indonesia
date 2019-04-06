@@ -23,6 +23,11 @@ body {
   height: 40px;
 }
 
+.navigation .modal h5, p, button {
+  font-family: 'Saira';
+  font-weight: bold;
+}
+
 .header {
   margin-top: 25px;
 }
