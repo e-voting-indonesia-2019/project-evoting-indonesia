@@ -1,0 +1,35 @@
+body {
+  min-height: 600px;
+  background-color: #FF0000;
+  background-image: url(../../assets/images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+.navigation h3 {
+  font-family: 'Content';
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFBFBF;
+}
+
+.navigation img {
+  width: 30px;
+  height: 30px;
+}
+
+.navigation img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.form .col-12 div {
+  min-height: 500px;
+  background-color: #FFBFBF;
+  padding: 25px;
+}
