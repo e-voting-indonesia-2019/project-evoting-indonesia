@@ -3,10 +3,26 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
   background-image: url(./assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.after-vote-word {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.thank-word {
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
