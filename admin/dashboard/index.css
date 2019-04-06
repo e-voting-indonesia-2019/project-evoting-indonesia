@@ -1,5 +1,4 @@
 body {
-  min-height: 650px;
   background-color: #FF0000;
   background-image: url(../../assets/images/background.svg);
   background-repeat: no-repeat;
@@ -23,19 +22,37 @@ body {
   height: 30px;
 }
 
+.navigation img:hover {
+  width: 40px;
+  height: 40px;
+}
+
 .header {
   margin-top: 25px;
 }
 
 .header .box {
+  height: 125px;
   line-height: 10%;
   background-color: rgb(255, 255, 255, 0.75);
   padding-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+}
+
+.header .box:hover {
+  line-height: 10%;
+  background-color: rgb(224, 158, 158, 0.75);
+  padding-left: 20px;
+  margin-bottom: 25px;
 }
 
 .header img {
   
+}
+
+.header a {
+  text-decoration: none;
+  color: #432F2F;
 }
 
 .header h1 {
@@ -49,3 +66,51 @@ body {
   font-size: 18px;
   font-weight: 500; 
 }
+
+.main {
+  margin-bottom: 30px;  
+}
+
+.main h3 {
+  font-family: 'Saira';
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main .box {
+  background-color: rgb(255, 255, 255, 0.75);
+}
+
+.main .box-top {
+  border-bottom: 1px white solid;
+  margin-bottom: 0px;
+}
+
+.main .box-top h3 {
+  padding: 10px 0px;
+}
+
+.main .box-body {
+  padding-top: 20px;
+  border-bottom: 1px white solid;
+}
+
+.main .box-body p {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Saira';
+  padding-top: 10px;
+}
+
+.main .box-bottom {
+  padding: 10px 75px;
+}
+
+.main .box-bottom h3 {
+  background-color: #E09E9E;
+  padding: 10px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+
