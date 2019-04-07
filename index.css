@@ -44,24 +44,29 @@ body {
   display:flex;
   justify-content: center;
   color: white;
-  font-size: 36px;
-  font-family: saira;
+  font-size: 30px;
+  font-family: 'Saira';
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .button-login {
-  color: white;
-  background-color: red;
   width: 300px;
+  background-color: red;
+  color: white;
+  border: 1px white solid;
+  margin-top: 10px;
 }
 
 .form-group label {
   font-family: saira;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
   color: white;
 
 }
 
 form {
   border: 1px solid white;
-  padding: 30px;
+  padding: 30px 50px;
 }
