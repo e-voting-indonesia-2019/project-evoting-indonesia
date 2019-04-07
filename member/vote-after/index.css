@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
   width: 1280px;
   min-height: 650px;
   background-color: #FF0000;
@@ -14,15 +15,24 @@ body {
   background-position: center;
 }
 
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: saira;
+}
+
+/* 
 .after-vote-word {
   display: flex;
   justify-items: center;
   align-items: center;
-  /* flex-direction: column; */
 }
 
 .thank-word {
   display: flex;
   justify-items: center;
   align-items: center;
-}
+} */

@@ -1,11 +1,11 @@
 body {
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 .container {
   width: 1280px;
   min-height: 650px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   background-image: url(./assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: #FF0000;
+  background-color: #ff0000;
   border: 1px solid white;
   margin: 20px;
 }
@@ -76,7 +76,7 @@ body {
 
 .card-footer button {
   color: white;
-  background-color: #FF0000;
+  background-color: #ff0000;
   width: 300px;
   height: 40px;
   font-family: saira;
@@ -85,9 +85,8 @@ body {
 
 .card-footer button:hover {
   background-color: gainsboro;
-  color: #FF0000;
+  color: #ff0000;
 }
-
 
 /* modal */
 
@@ -98,17 +97,17 @@ body {
 }
 
 .modal-footer .modal-yes-vote {
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: white;
   width: 100px;
 }
 
 .modal-not-sure:hover {
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: white;
 }
 
 .modal-yes-vote:hover {
   background-color: lightgrey;
-  color: #FF0000;
+  color: #ff0000;
 }
