@@ -32,6 +32,11 @@ body {
   color: white;
 }
 
+.title h1 a {
+  color: white;
+  text-decoration: none;
+}
+
 .register {
   border-color: white;
 }
