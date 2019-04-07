@@ -3,26 +3,41 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   width: 1280px;
   min-height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   background-color: #FF0000;
-  background-image: url(./assets/images/background.svg);
+  background-image: url(../../assets/images/background.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.after-vote-word {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  /* flex-direction: column; */
+.container h1 {
+  font-family: 'Saira';
+  font-size: 62px;
+  font-weight: 500;
+  color: white;
 }
 
-.thank-word {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+.container p {
+  font-family: 'Saira';
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+}
+
+.container p:hover {
+  font-family: 'Saira';
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: none;
 }
