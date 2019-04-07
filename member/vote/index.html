@@ -15,13 +15,13 @@
 <body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+    </script>
 
   <div class="container-fluid">
     <div id="head-vote" class="head-vote">
@@ -37,11 +37,10 @@
         </div>
         <div class="card-body">
           <img src="/assets/images/profil-01.png" alt="jokowi-maruf">
-          <p>Ir.H Joko Widodo - K.H Ma'ruf Amin</p>
+          <p>Ir. H Joko Widodo - K.H Ma'ruf Amin</p>
         </div>
         <div class="card-footer">
-          <!-- <a href="/member/vote-after/index.html"><button>VOTE</button></a> -->
-          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
+          <button class="btn-danger">VOTE</button>
         </div>
       </div> <br>
 
@@ -51,13 +50,10 @@
         </div>
         <div class="card-body">
           <img src="/assets/images/profil-02.png" alt="prabowo-uno">
-          <p>H.Prabowo Subianto - H.Sandiaga Uno</p>
+          <p>H. Prabowo Subianto - H. Sandiaga Uno</p>
         </div>
         <div class="card-footer">
-          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-            Launch demo modal
-          </button> -->
-          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
+          <button class="btn-danger">VOTE</button>
         </div>
       </div><br>
 
@@ -67,15 +63,13 @@
         </div>
         <div class="card-body">
           <img src="/assets/images/profil-10.png" alt="jokowi-maruf">
-          <p>Nurhadi - Aldo</p>
+          <p>H. Nurhadi S.Mp., S.Ma. - Aldo Chicken Dinner</p>
         </div>
         <div class="card-footer">
-          <!-- <a href="/member/vote-after/index.html"><button>VOTE</button></a> -->
-          <button data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
+          <button class="btn-danger" data-toggle="modal" data-target="#exampleModalCenter">VOTE</button>
         </div>
       </div>
     </section>
-
   </div>
 
   <!-- Modal -->
@@ -84,7 +78,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">CONFIRMATION</h5>
+          CONFIRMATION
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true"></span>
           </button>
@@ -93,8 +87,9 @@
           You are vote Nurhadi-Aldo. Are you sure?
         </div>
         <div class="modal-footer">
-          <button class="modal-not-sure" type="button" data-dismiss="modal">Not sure</button>
-          <button class="modal-yes-vote" type="button">Yes, i vote</button>
+          <button class="modal-not-sure btn-secondary" type="button" data-dismiss="modal">Not sure</button>
+          <a href="../vote-after/index.html"><button class="modal-yes-vote btn-danger" type="button">Yes, i
+              vote</button></a>
         </div>
       </div>
     </div>

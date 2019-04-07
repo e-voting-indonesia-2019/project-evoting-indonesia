@@ -1,5 +1,8 @@
 body {
   background-color: #FF0000;
+  background-image: url(../../assets/images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
@@ -12,16 +15,18 @@ body {
 }
 
 .head-vote {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .head-vote p {
   display: flex;
   justify-content: center;
-  font-family: saira;
+  font-family: 'Saira';
   font-size: 32px;
+  font-weight: 500;
   color: white;
+  line-height: 85%;
 }
 
 .card-group {
@@ -33,17 +38,21 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: #FF0000;
+  background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
-  margin: 20px;
+  margin: 0px 5px;
 }
 
 .card-header {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid white;
+}
+
+.card-header h3 {
   color: white;
-  font-family: saira;
+  font-family: 'Saira';
+  font-weight: 500;
 }
 
 .card-body {
@@ -51,6 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 
 .card-body img {
@@ -65,50 +75,41 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  border: none;
 }
 
 .card-body p {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: saira;
+  font-weight: bold;
   margin-top: 20px;
 }
 
 .card-footer button {
+  width: 300px;
+  height: 60px;
   color: white;
   background-color: #FF0000;
-  width: 300px;
-  height: 40px;
-  font-family: saira;
+  font-family: 'Saira';
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px white solid;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
-.card-footer button:hover {
-  background-color: gainsboro;
-  color: #FF0000;
-}
-
-
 /* modal */
 
-.modal-footer .modal-not-sure {
-  background-color: lightgray;
-  color: red;
-  width: 100px;
+.modal {
+  font-family: 'Saira';
+  font-weight: bold;
 }
 
-.modal-footer .modal-yes-vote {
-  background-color: #FF0000;
-  color: white;
-  width: 100px;
+.modal-footer button {
+  width: 125px;
+  height: 40px;
+  border: 1px white solid;
 }
 
-.modal-not-sure:hover {
-  background-color: #FF0000;
-  color: white;
-}
 
-.modal-yes-vote:hover {
-  background-color: lightgrey;
-  color: #FF0000;
-}
